@@ -81,13 +81,14 @@ int main()
 	int num;
 	SimpleStat statHelper;
 	cout << "Chapter 7 Simple Stats by Kevin Bell\n\n";
-	cout << "Please enter the set of non-negative integer values you want to average. Separate each value with a space. Enter a -1 to end the set." << endl;
+	cout << "Please enter the set of non-negative integer values you want to average. Separate each value with a space. Enter a -1 to end the set.\n\n";
 	cin >> num;
 	while (num >= 0) {
 		if (statHelper.addNumber(num))
 			cin >> num;
 	} // end while
 	cout << "You entered " << statHelper.getCount() << " numbers." << endl;
+	cout << "The sum of the numbers is " << statHelper.calcAverage()*statHelper.getCount() << endl;
 	cout << "The largest number you entered was " << statHelper.getLargest() << endl;
 	cout << "The smallest number you entered was " << statHelper.getSmallest() << endl;
 	cout << "The average of the numbers you entered is " << statHelper.calcAverage() << endl;

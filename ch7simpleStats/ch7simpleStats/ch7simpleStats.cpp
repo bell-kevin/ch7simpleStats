@@ -87,6 +87,7 @@ int main()
 		if (statHelper.addNumber(num))
 			cin >> num;
 	} // end while
+	cout << endl;
 	cout << "You entered " << statHelper.getCount() << " numbers." << endl;
 	cout << "The sum of the numbers is " << statHelper.calcAverage()*statHelper.getCount() << endl;
 	cout << "The largest number you entered was " << statHelper.getLargest() << endl;

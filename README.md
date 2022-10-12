@@ -4,7 +4,7 @@ There is a project named SimpleStat in Program 7-8 in this chapter (in section 7
 
 Here is an example of the output:
 
-![Ch 7 Simple Stats](https://github.com/bell-kevin/ch7simpleStats/blob/main/stats4.PNG)
+![Ch 7 Simple Stats](https://github.com/bell-kevin/ch7simpleStats/blob/main/stats8.PNG)
 
 Create a table of test cases BEFORE you write and run your project to calculate the correct results for 3 different groups of numbers. Use a different number of numbers as well as different values in each test case. Run the project with input matching those test cases and check your results. Take screenshots of the result of running the project for each test case.
 
